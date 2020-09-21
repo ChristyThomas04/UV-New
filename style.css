@@ -1,0 +1,1710 @@
+body, html{
+    height:100%;
+    margin:0;
+    font-size:16px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color:black;
+    background-color: black;
+}
+
+/* navbar */
+
+/* end navbar */
+
+/* start landing page */
+
+.image1{
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+  
+.image1{
+    background-image:url('image7.jpg');
+    height:100vh;
+    width: auto;
+    z-index: 0;
+}
+
+.overlay{
+    background-color: white;
+    opacity: 0.5;
+    z-index: 1;
+    height: 100vh;
+}
+
+.landing-page{
+    position: absolute;
+    font-size: 100px;
+    font-weight: 800;
+    line-height: 7rem;
+    color: black;
+    top: 25%;
+    padding-left: 100px;
+    vertical-align: middle !important;
+    z-index: 100 !important;
+}
+
+.landing-color{
+    color: #174ee2;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 1440px) and (orientation: landscape){
+  
+}
+
+
+@media screen and (max-width: 1366px){
+
+}
+
+@media screen and (max-width: 1200px){
+  
+}
+
+
+@media screen and (max-width: 1024px) {
+    .image1{
+        height: 800px;
+    }
+    .overlay{
+        height: 800px;
+    }
+    .landing-page{
+        font-size: 70px;
+        line-height: 5rem;
+    }  
+}
+
+@media screen and (max-width: 1366px) and (orientation: landscape){
+    .landing-page{
+        font-size: 80px;
+    }        
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape){
+    
+}
+
+@media screen and (max-width: 991px) {
+    .landing-page{
+        font-size: 60px;
+    } 
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape){
+  
+}
+
+
+@media screen and (max-width: 812px) and (orientation: landscape){
+     
+}
+
+
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width:736px) and (orientation: landscape){
+  
+}
+
+@media screen and (max-width:640px){
+
+}
+
+@media screen and (max-width: 500px){
+    .landing-page{
+        font-size: 25px ;
+        font-weight: 800;
+        line-height: 2rem;
+        color: black;
+        top: 25%;
+        padding-left: 40px;
+    }
+    .image1{
+        height: 400px ;
+    }
+    .overlay{
+        height: 400px ;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    
+}
+
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 375px) , screen and (max-height: 667px) {
+  
+}
+
+@media screen and (max-width: 360px) , screen and (max-height: 640px) {
+ 
+}
+
+@media screen and (max-width: 320px) , screen and (max-height: 568px) {
+ 
+}
+
+/* end landing page */
+
+
+/* about page start */
+
+.about{
+    height: 100vh;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left p{
+    padding-right: 100px;
+}
+
+.nested{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+}
+.wrapper > div{
+    background: black;
+    padding: 1em;
+    color:white ;
+}
+.wrapper > div:nth-child(odd) h1{
+    padding-top: 200px;
+    padding-left: 100px;
+    line-height: 5rem;
+    font-weight: 800;
+    font-size: 50px;
+}
+.wrapper > div:nth-child(odd) p{
+    padding-left: 100px;
+    line-height: 3rem; 
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.nested > div {
+    border: #333 1px solid;
+    padding: 1em;
+}
+
+.nested > div h1{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    border-bottom: grey 1px solid;
+}
+
+.nested > div p{
+    font-size:20px ;
+    color: grey;
+    padding: 0px 20px 0px 20px;
+}
+
+
+/* Responsive */
+
+@media screen and (max-width: 1440px) and (orientation: landscape){
+  
+}
+
+
+@media screen and (max-width: 1366px){
+    
+}
+
+@media screen and (max-width: 1200px){
+  
+}
+
+
+@media screen and (max-width: 1024px) {
+    .wrapper > div:nth-child(odd) h1{
+        padding-top: 100px !important;
+        padding-right: 20px;
+        padding-left: 20px;
+        font-weight: 600;
+        line-height: 4rem;
+    }
+    .wrapper > div:nth-child(odd) p{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .nested > div h1{
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        font-size: 30px;
+        border-bottom: grey 1px solid;
+    }
+    
+    .nested > div p{
+        font-size:20px ;
+        color: grey;
+        padding: 0px 10px 0px 10px;
+    }
+
+    .about{
+        height: auto !important;
+    }
+}
+
+@media screen and (max-width: 1367px) and (orientation: landscape){
+    .wrapper > div:nth-child(odd) h1{
+        padding-top: 100px !important;
+    }
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape){
+   
+}
+
+
+@media screen and (max-width: 991px) {
+    .wrapper{
+        display:inline !important;
+    } 
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape){
+  
+}
+
+
+@media screen and (max-width: 812px) and (orientation: landscape){
+  
+}
+
+
+@media screen and (max-width: 768px) {
+    .wrapper{
+        display:inline !important;
+    } 
+}
+
+
+@media screen and (max-width:736px) and (orientation: landscape){
+  
+}
+
+@media screen and (max-width:640px){
+
+}
+
+
+@media screen and (max-width: 500px){
+    .wrapper .nested{
+        display:inline !important;
+        background-color: black !important;
+        color: white !important;
+
+    }
+
+    .wrapper{
+        background-color: white !important;
+        color: black;
+    }
+
+    .wrapper > div:nth-child(odd) h1{
+        padding-top: 20px !important;
+        padding-left: 20px !important;
+        line-height: 4rem !important;
+        font-weight: 600 !important;
+        font-size: 40px !important;
+    }
+    .wrapper > div:nth-child(odd) p{
+        padding-left: 20px !important;
+        padding-right: 20px !important;
+        line-height: 2rem !important; 
+        font-weight: 400;
+        font-size: 19px !important;
+    }
+
+        
+    .nested > div {
+        border: #333 3px solid; 
+        margin: 10px 10px 10px 10px;
+        background-color: black ;
+         padding: 1em; 
+    }
+
+    .nested > div h1{
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 50px;
+        border-bottom: grey 1px solid;
+    }
+
+    .nested > div p{
+        font-size:20px ;
+        color: grey;
+        padding: 0px 20px 0px 20px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+  
+}
+
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 375px) , screen and (max-height: 667px) {
+  
+}
+
+@media screen and (max-width: 360px) , screen and (max-height: 640px) {
+ 
+}
+
+@media screen and (max-width: 320px) , screen and (max-height: 568px) {
+ 
+}
+
+/* products */
+
+.products {
+    position: relative;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.products h1{
+    margin-top: 80px;
+    color:#3f3f3f;
+    text-align: center;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.products-container {
+    position: relative;
+}
+
+
+.products-container {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top:100px ;
+}
+
+.S-250 {
+    background-color: #dadada;
+    width: 50%;
+    height: 600px;
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    border-radius: 10px;
+    /* display: flex; */
+    /* flex: 1; */
+}
+
+.S-250 img{
+    height: 550px;
+    width: auto;
+    padding-top: 50px;
+    opacity: 1;
+    backface-visibility: hidden ;
+    transition: .5s ease;
+}
+
+.middle{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    /* transform: translate(-50%, -50%); */
+    /* -ms-transform: translate(-50%, -50%); */
+    text-align: center;
+    transition: .5s ease;
+}
+
+.S-250:hover .aa{
+    opacity: 0.2;
+}
+
+.S-250:hover .middle{
+    opacity: 1;
+}
+
+.readmore{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 16px 32px;
+    transform: translate(-50%, -50%);
+}
+
+.readmore:hover{
+    text-decoration: none;
+    background-color: white;
+    color: blue;
+}
+
+.S-50{
+    background-color: #dadada;
+    width: 50%;
+    height: 600px;
+    margin-right: 100px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 10px;
+    /* display: flex;  */
+    /* flex: 1; */
+}
+
+.S-50 img{
+    height: 475px;
+    width: auto;
+    padding-top: 100px;
+    opacity: 1;
+    backface-visibility: hidden ;
+    transition: .5s ease;
+}
+
+.middle2{
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    /* transform: translate(-50%, -50%); */
+    /* -ms-transform: translate(-50%, -50%); */
+    text-align: center;
+    transition: .5s ease;
+}
+
+.S-50:hover .bb{
+    opacity: 0.2;
+}
+
+.S-50:hover .middle2{
+    opacity: 1;
+    
+}
+
+.readmore2{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 16px 32px;
+    transform: translate(-50%, -50%);
+}
+
+.readmore2:hover{
+    text-decoration: none;
+    background-color: white;
+    color: blue;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: relative; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 100vw ; /* Full width */
+    height: 100vh ; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 0 ; /* 15% from the top and centered */
+    padding: 20px;
+    /* border: 1px solid #888; */
+   height: 100%;
+    width: 100%; /* Could be more or less, depending on screen size */
+  }
+
+.popup-inner{
+    position: relative;
+    background-color:white;
+    transition: 0.74s ease-in-out;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-photo{ 
+    flex: 1;
+}
+
+.popup-photo img{
+    width: auto;
+    height: 800px;
+}
+
+.popup-text{
+    flex: 1;
+}
+
+.popup-text p{
+    font-size: 30px;
+    height: 70vh;
+    width: 80%;
+    padding: 40px;
+    margin-right: 20px ;
+    text-align: left;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: black;
+    padding-top: 100px ;
+}
+
+.popup-text .header{
+    font-size: 40px;
+    /* color: white; */
+    color: black;
+    font-weight: 600;
+    
+}
+
+.popup-photo2{ 
+    flex: 1;
+}
+
+.popup-photo2 img{
+    width: auto;
+    height: 800px;
+}
+
+.popup-text2{
+    flex: 1;
+}
+
+.popup-text2 p{
+    font-size: 30px;
+    height: 70vh;
+    width: 80%;
+    padding: 40px;
+    margin-right: 20px ;
+    text-align: left;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: black;
+    padding-top: 100px ;
+}
+
+.popup-text2 .header{
+    font-size: 40px;
+    /* color: white; */
+    color: black;
+    font-weight: 600;
+    
+}
+  
+  /* The Close Button */
+  .close {
+    color: #aaa;
+    /* float: right; */
+    position: relative;
+    padding-left: 90%;
+    font-size: 56px !important;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  .close2 {
+    color: #aaa;
+    /* float: right; */
+    position: relative;
+    padding-left: 90%;
+    font-size: 56px !important;
+    font-weight: bold;
+  }
+  
+  .close2:hover,
+  .close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Responsive */
+
+@media screen and (max-width: 1440px) and (orientation: landscape){
+  
+}
+
+
+@media screen and (max-width: 1366px){
+  
+}
+
+@media screen and (max-width: 1200px){
+  
+}
+
+
+@media screen and (max-width: 1024px) {
+  .products{
+      height: 1000px;
+  }
+
+  .S-250{
+      margin-right: 25px;
+  }
+
+  .readmore{
+      display: none;
+  }
+
+  .S-250:hover .aa{
+    opacity: 1;
+  }
+
+  .readmore2{
+      display: none;
+  }
+
+  .S-50:hover .bb{
+      opacity: 1;
+  }
+
+  .S-50{
+       margin-left: 25px; 
+  }
+
+
+
+   .popup-text .header{
+       font-size: 35px;
+   }
+
+   .popup-text{
+       margin-top: 100px;
+   }
+
+   .popup-text2 .header{
+    font-size: 35px;
+    }
+
+    .popup-text2{
+        margin-top: 100px;
+    }
+   
+    .popup-photo2 img{
+        height: 600px;
+    }
+
+}
+
+@media screen and (max-width: 1366px) and (orientation: landscape){
+
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape){
+   .popup-photo img{
+       height: 600px;
+   }
+
+   .popup-text{
+       margin-top: 0px;
+   }
+
+   .popup-text p{
+       font-size: 20px;
+   }
+
+   .popup-photo2 img{
+    height: 500px;
+    }
+
+    .popup-text2{
+        margin-top: 0px;
+    }
+
+    .popup-text2 p{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .S-250 img{
+        height: 500px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .S-50 img{
+        height: 400px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    .S-250{
+        height: 550px;
+    }
+    .S-50{
+        height: 550px;
+    }
+    .popup-text{
+        margin-top: 0px;
+    }
+    .popup-text2{
+        margin-top: 0px;
+    }
+    .popup-text .header{
+        font-size: 25px;
+    }
+    .popup-text2 .header{
+        font-size:25px ;
+    }
+    .popup-text p{
+        font-size: 25px;
+     }
+    .popup-text2 p{
+       font-size: 25px;
+    }
+
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape){
+  
+}
+
+
+@media screen and (max-width: 812px) and (orientation: landscape){
+  
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width:736px) and (orientation: landscape){
+  
+}
+
+@media screen and (max-width:640px){
+
+}
+
+@media screen and (max-width: 500px){
+    .products-container{
+        position: relative;
+        display: flex !important;
+        margin-top:100px;
+        flex-direction: column !important;
+        text-align: center !important;
+    }
+    .S-250{
+         width: 90%;
+         flex: 1;
+         justify-content: center !important;
+        align-items: center !important;
+        margin-left: 0px;
+        margin-right:0px ;
+        text-align: center;
+    }
+    .S-50{
+        flex: 1;
+        width: 90%;
+        margin-top:100px;
+        margin-bottom: 100px;
+        margin-right:0px ;
+        margin-left: 0px;
+    }
+    .products{
+        height: auto;
+    }
+
+    .S-250 img{
+        height: 500px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .S-50 img{
+        height: 350px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .readmore{
+        position: relative;
+    }
+
+    .popup-inner{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+    }
+    .modal-content{
+        height: auto;
+        overflow: scroll;
+    }
+    .popup-photo img{
+        flex: 1;
+        height: 300px !important;
+        width: auto;
+    }
+    .popup-photo2 img{
+        flex: 1;
+        height: 250px !important;
+        width: auto;
+    }
+    .popup-text{
+        flex: 1;
+    }
+    .popup-text2{
+        flex: 1;
+    }
+    .popup-text .header{
+        font-size: 26px;
+    }
+    .popup-text p{
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .popup-text2 .header{
+        font-size: 22px;
+    }
+    .popup-text2 p{
+        font-size: 15px;
+        padding-top: 20px;
+    }
+
+    .close{
+        font-size: 30px !important;
+    }
+    .close2{
+        font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width: 414px) {
+  
+}
+
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 375px) , screen and (max-height: 667px) {
+  
+}
+
+@media screen and (max-width: 360px) , screen and (max-height: 640px) {
+ 
+}
+
+@media screen and (max-width: 320px) , screen and (max-height: 568px) {
+ 
+}
+
+
+/*  */
+
+.upcoming{
+    position: relative;
+    background-color: black;    
+    height: 100vh;
+    overflow-x: hidden;
+  }
+
+  .upcoming-container {
+    width: 90%;
+    position: relative;
+  }
+  
+  .upcoming .upcoming-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .upcoming-details{
+      width: 50%;
+  }
+
+  .S-9000 {
+    flex: 1;
+    text-align: center;
+    padding-top: 200px;
+    padding-left: 200px;
+  }
+  
+  .S-9000 img {
+    width: auto;
+    height: 600px;
+  }
+  
+  .upcoming-details p {
+    padding-left: 100px;
+  line-height: 3rem; 
+  font-weight: 400;
+  font-size: 25px;
+  color: white;
+  }
+
+  .upcoming-details h1 {
+    padding-top: 100px;
+    padding-left: 100px;
+    line-height: 5rem;
+    font-weight: 800;
+    font-size: 50px;
+    color: white;
+  }
+
+.readmore3{
+    text-decoration: none;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    border-radius: 25px;
+    padding: 16px 32px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.readmore3:hover{
+    text-decoration: none;
+    background-color: white;
+    color: blue;
+}
+
+.upcom{
+transform: translateX(50%);
+}
+
+.upcom-details p{
+    font-size: 30px;
+    height: 70vh;
+    width: 80%;
+    padding: 40px;
+    margin-right: 20px ;
+    text-align: left;
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: black;
+}
+
+.close3 {
+    color: #aaa;
+    /* float: right; */
+    position: relative;
+    padding-left: 90%;
+    font-size: 56px !important;
+    font-weight: bold;
+}
+  
+  .close3:hover,
+  .close3:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  /* Responsive */
+
+@media screen and (max-width: 1440px) and (orientation: landscape){
+  
+}
+
+
+@media screen and (max-width: 1366px){
+    
+}
+
+@media screen and (max-width: 1200px){
+  
+}
+
+
+@media screen and (max-width: 1024px) {
+  .upcoming{
+      height: auto;
+  }
+  .upcoming-details h1{
+    padding-top: 100px !important;
+    padding-right: 0px;
+    padding-left: 40px;
+    font-weight: 600;
+    line-height: 4rem;
+  }
+  .upcoming-details p{
+    padding-right: 0px;
+    padding-left: 40px;
+  }
+
+  .readmore3{
+      margin-left: 40px;
+      margin-bottom: 40px;
+      padding: 8px 16px;
+  }
+  
+  .upcom {
+    padding-left: 40px;
+    transform: translate(0);
+  }
+}
+
+@media screen and (max-width: 1367px) and (orientation: landscape){
+    
+    .upcoming-details h1 {
+       padding-top: 50px;
+       font-size: 40px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape){
+  .upcom-details p{
+    font-size: 25px;
+    line-height: 2rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+ 
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape){
+  
+}
+
+
+@media screen and (max-width: 812px) and (orientation: landscape){
+  
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .upcoming-container{
+      display: flex;
+      flex-direction: column;
+  }
+  .upcoming-details{
+      margin-left: 20px;
+      margin-right: 20px;
+      width: 100%;
+  }
+  .S-9000{
+      padding-left: 100px;
+      padding-top: 20px;
+  }
+  .upcom{
+    height: 500px !important;
+    padding-left: 40px;
+  }
+  .upcom-details p{
+    font-size: 25px;
+    line-height: 2.5rem
+  }
+}
+
+@media screen and (max-width:736px) and (orientation: landscape){
+  
+}
+
+@media screen and (max-width:640px){
+
+}
+
+@media screen and (max-width: 500px){
+  .upcoming-details h1{
+    padding-top: 20px !important;
+    padding-left: 20px !important;
+    line-height: 4rem !important;
+    font-weight: 600 !important;
+    font-size: 40px !important;
+  }
+
+  .upcoming-details p{
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    line-height: 2rem !important; 
+    font-weight: 400;
+    font-size: 19px !important;
+  }
+
+  .readmore3{
+      margin-left: 20px;
+  }
+
+  .S-9000 img{
+      height: 300px !important;
+  }
+
+  .popup-photo .upcom{
+    padding-left: 0px !important;
+    height: 250px !important;
+  }
+  .upcom-details p{
+      font-size: 15px !important;
+        overflow: scroll;
+       margin-bottom: 40px;
+      line-height: 1.6rem !important;
+  }
+
+  .close3{  
+      font-size: 30px !important;
+    }
+}
+
+@media screen and (max-width: 414px) {
+  
+}
+
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 375px) , screen and (max-height: 667px) {
+  
+}
+
+@media screen and (max-width: 360px) , screen and (max-height: 640px) {
+ 
+}
+
+@media screen and (max-width: 320px) , screen and (max-height: 568px) {
+ 
+}
+
+
+
+/* Start contact */
+
+.ending{
+    background-color:white;
+    height: 100vh;
+}
+
+#contact {
+    overflow-x: hidden;
+}
+
+.ending{
+    position:relative;
+    background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
+  
+.ending{
+    background-image:url('image8.jpg');
+    height:100vh;
+    width: auto;
+    z-index: 0;
+}
+.overlay2{
+    background-color: white ; 
+    opacity: 0.8; 
+    z-index: 1;
+    height: 100vh;
+}
+  
+.contact {
+    height: auto;
+    width: 30%;
+    margin-bottom: 50px;
+    padding-top: 100px;
+}
+  
+  .contact h4 {
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    font-weight: 400;
+    margin-top: 50px;
+    padding-left: 60px;
+  }
+  
+  .contact p {
+    text-align: left;
+    font-weight: 400;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 50px;
+    padding-left: 60px;
+    padding-right: 40px;
+  }
+
+  .formed p{
+    text-align: left;
+    font-weight: 400;
+    color: black;
+    font-size: 25px;
+    /* margin-bottom: 50px; */
+    /* padding-left: 60px; */
+    /* padding-right: 40px; */
+  }
+
+  .formed h1{
+    font-size: 40px;
+    color: black;
+    /* text-align: center; */
+    font-weight: 400;
+    padding-top: 35px; 
+    /* padding-left: 60px; */
+  }
+  
+  .inner {
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+  }
+  
+  
+  .user-form {
+    /* background-color: black; */
+    /* padding: 60px; */
+    width: 70%;
+    padding-top: 100px;
+    /* height: 100%; */
+    /* border-radius: 0px 10px 10px 0px; */
+  }
+  
+  .user-form h1 {
+    /* color: white; */
+    /* padding: 0px 0 35px; */
+    /* margin: 0px 10px 0px; */
+    /* text-align: left; */
+    /* padding-left: 20px !important; */
+    /* padding-top: 50px !important;  */
+    /* font-size: 50px; */
+  }
+  
+  input {
+    width: 100%;
+    height: 60px;
+    /* border: none; */
+    /* background-color: none; */
+    /* border: 0px 0px 1px 0px !important;   */
+    /* border-bottom: 2px !important; */
+    border-top:2px;
+    border-left:2px ;
+    border-right:2px ;
+    background-color: transparent;
+    font-size: 20px ;
+    margin-bottom: 20px !important;
+    padding-left:30px !important;
+  }
+
+  #name{
+      width: 30%;
+  }
+  #company{
+      /* display: inline; */
+      width: 30%;
+  }
+  #designation{
+      width: 40%;
+  }
+  #phone{
+      width: 30%;
+  }
+  #email{
+      width: 30%;
+  }
+  #msg{
+      width: 90%;
+  }
+  input:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 9em;
+    /* border: none; */
+    /* border-radius: 5px; */
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 0 30px;
+    outline: none;
+    box-shadow: none;
+    background-color: transparent;
+    border-top:10px ;
+    border-right:10px ;
+    border-left: 10px;
+  }
+  
+  .pd-telephone-input .pd-telephone-dropdown {
+    margin: 12px 5px;
+  }
+  
+  .pd-telephone-input {
+    color: white;
+    text-align: left;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+  
+  .btn {
+    margin-top: 30px !important;
+    color: #fff !important;
+    background-color: black !important;
+    border-radius: 50px !important;
+    border: none;
+    font-size: 25px !important;
+    padding: 10px 40px !important;
+  }
+  
+  /* .btn:hover { 
+    color: #fff;
+   } */
+ 
+  /*  
+  #contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .ending .container{
+    margin-bottom:0 !important ;
+  }
+ */
+  
+  /* Responsive */
+
+@media screen and (max-width: 1440px) and (orientation: landscape){
+  
+}
+
+
+@media screen and (max-width: 1366px){
+  
+}
+
+@media screen and (max-width: 1200px){
+  
+}
+
+
+@media screen and (max-width: 1024px) {
+    .ending{
+        height: auto ;
+    }
+    .overlay2{
+        height: auto ;
+    }
+    .contact p{
+        font-size: 20px;
+    }
+    .btn{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 1366px) and (orientation: landscape){
+    
+    
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape){
+   
+}
+
+@media screen and (max-width: 991px) {
+    .ending{
+        height: auto ;
+    }
+    .overlay2{
+        height: auto ;
+    }
+    .contact h4{
+        font-size: 20px;
+        font-weight:600 ;
+    }
+    .contact p{
+        font-size: 15px;
+    }
+    .user-form{
+        padding-left: 20px;
+    }
+    .formed h1{
+        font-size: 25px;
+        font-weight:600 ;
+    }
+    .formed p{
+        font-size: 15px;
+    }
+    #name{
+        width: 50%;
+    }
+    #company {
+            width: 50%;
+     }
+    #email{
+        width: 50%;
+    }
+    #phone{
+        width: 50%;
+    }
+    .input{
+        font-size: 20px;
+    }
+    .btn{
+        font-size: 20px;
+        padding: 5px 20px !important;
+    }
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape){
+  
+}
+
+
+@media screen and (max-width: 812px) and (orientation: landscape){
+  
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width:736px) and (orientation: landscape){
+  
+}
+
+@media screen and (max-width:640px){
+
+}
+
+@media screen and (max-width: 500px){
+  .inner{
+    width: 100%;
+    display: flex ;
+    flex-direction: column;
+  }
+  .contact{
+      width: 100%;
+      padding-top: 20px;
+  }
+  
+  .ending{
+    height: auto ;
+  }
+  .overlay2{
+      height:auto;
+      /* opacity: 1.0 !important; */
+  }
+  .user-form{
+      background-color: white;
+      width: 100%;
+  }
+  .user-form{
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    .formed h1{
+        font-size: 25px ; 
+        font-weight:600 ;
+    }
+    .formed p{
+        font-size: 15px;
+    }
+    #name{
+        width: 90%;
+    }
+    #company {
+        width: 90%;
+    }
+    #email{
+        width: 90%;
+    }
+    #phone{
+        width: 90%;
+    }
+    .input{
+        font-size: 15px !important ;
+        height: 20px !important;
+    }
+    .textarea{
+        font-size: 15px !important;
+    }
+    .btn{
+        font-size: 15px !important ;
+        padding: 5px 20px !important;
+    }
+      
+  
+  
+}
+
+@media screen and (max-width: 414px) {
+  
+}
+
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 375px) , screen and (max-height: 667px) {
+  
+}
+
+@media screen and (max-width: 360px) , screen and (max-height: 640px) {
+ 
+}
+
+@media screen and (max-width: 320px) , screen and (max-height: 568px) {
+ 
+}
+
+
+  
+  /* Start footer */
+  
+  .copyright {
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    position: relative;
+    color: #fff;
+    height: 40px;
+    /* padding-top: 15px; */
+    margin-top: 0;
+  }
+  
+  .copyright p{
+    font-size: 20px;
+    color: white;
+    font-weight: 100;
+    margin-bottom:0 !important ;
+  }
+  
+  
+  /* Responsive */
+ /* Responsive */
+
+@media screen and (max-width: 1440px) and (orientation: landscape){
+  
+}
+
+
+@media screen and (max-width: 1366px){
+  
+}
+
+@media screen and (max-width: 1200px){
+  
+}
+
+
+@media screen and (max-width: 1024px) {
+  
+}
+
+@media screen and (max-width: 1366px) and (orientation: landscape){
+
+}
+
+@media screen and (max-width: 1024px) and (orientation: landscape){
+   
+}
+
+@media screen and (max-width: 991px) {
+ 
+}
+
+@media screen and (max-width: 823px) and (orientation: landscape){
+  
+}
+
+
+@media screen and (max-width: 812px) and (orientation: landscape){
+  
+}
+
+
+
+@media screen and (max-width: 768px) {
+  
+}
+
+@media screen and (max-width:736px) and (orientation: landscape){
+  
+}
+
+@media screen and (max-width:640px){
+
+}
+
+@media screen and (max-width: 500px){
+  .copyright{
+      display: flex;
+      padding-left: 50PX;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  
+}
+
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 375px) , screen and (max-height: 667px) {
+  
+}
+
+@media screen and (max-width: 360px) , screen and (max-height: 640px) {
+ 
+}
+
+@media screen and (max-width: 320px) , screen and (max-height: 568px) {
+ 
+}
+
+
+  
+  /* End footer */
+
